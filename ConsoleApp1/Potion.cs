@@ -4,11 +4,37 @@
 
     public Potion(int healValue)
     {
-        HealValue = healValue;
+        // ㅋㅋㅋㅋ
+
+        while (true)
+        {
+            while (true)
+            {
+                while (true)
+                {
+                    while (true)
+                    {
+                        while (true)
+                        {
+                            while (true)
+                            {
+                                while (true)
+                                {
+                                    while (true)
+                                    {
+                                        Console.WriteLine("ㅋㅋ");
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
     
     public override void Interact(Monster monster)
     {
-        monster.Health += HealValue;
+        // ㅋㅋㅋㅋㅋㅋㅋ
     }
 }
