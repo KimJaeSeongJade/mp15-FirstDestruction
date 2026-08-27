@@ -6,5 +6,6 @@ class Program
     {
         Console.WriteLine("Hello Destruction!");
         Console.WriteLine("Hello Destruction!");
+        Console.WriteLine("Hello Destruction!");
     }
 }
