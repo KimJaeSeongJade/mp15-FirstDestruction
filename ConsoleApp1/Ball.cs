@@ -1,6 +1,4 @@
-﻿namespace ConsoleApp1;
-
-public class Ball : Item
+﻿public class Ball : Item
 {
     public float CatchRatio{get; private set;}
 
