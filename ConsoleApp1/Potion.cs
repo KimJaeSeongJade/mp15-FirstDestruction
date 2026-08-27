@@ -1,6 +1,4 @@
-﻿namespace ConsoleApp1;
-
-public class Potion : Item
+﻿public class Potion : Item
 {
     public override void Interact(Monster monster)
     {
