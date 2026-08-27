@@ -1,6 +1,6 @@
 ﻿namespace ConsoleApp1;
 
-public class Object
+public class BaseObject
 {
     public int Id { get; private set; }
 }
