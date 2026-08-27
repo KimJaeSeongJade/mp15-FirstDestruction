@@ -1,6 +1,6 @@
 ﻿public class Potion : Item
 {
-    public int HealValue { get;private set; }
+    public float HealValue { get;private set; }
 
     public Potion(int healValue)
     {
@@ -9,6 +9,6 @@
     
     public override void Interact(Monster monster)
     {
-        monster.Health += HealValue;
+        monster.Health += (int)(monster.Health * HealValue);
     }
 }
