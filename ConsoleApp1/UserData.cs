@@ -2,6 +2,7 @@
 
 public struct UserData
 {
-    public int Id;
+    public int Index { get; private set; }
     public string Name;
+    
 }
